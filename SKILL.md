@@ -1,11 +1,11 @@
 ---
 name: credentials-management
 description: Securely manage credentials — list available secrets, request runtime tokens, rotate keys, revoke access, and audit usage. Use when retrieving API keys, rotating secrets, checking credential metadata, auditing access, or validating secret scopes.
-version: "1.0.0"
 license: Apache-2.0
+compatibility: Requires mcp-credentials-vault server connected.
 allowed-tools: [list_credentials, get_credential_metadata, request_runtime_secret, request_workload_token, rotate_credential, revoke_credential, audit_credential_access, validate_secret_scope]
-tags: [infrastructure, security, credentials, vault, secrets]
 metadata:
+  category: platform
   author: Zavora AI
   mcp-server: mcp-credentials-vault
   success-criteria:
